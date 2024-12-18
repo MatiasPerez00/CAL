@@ -1,7 +1,9 @@
-
+import './Footer.css'
 const FooterComponent = () => {
   return (
-    <div>FooterComponent</div>
+    <div className="footerComponent">
+        FooterComponent
+    </div>
   )
 }
 
