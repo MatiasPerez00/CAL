@@ -11,9 +11,10 @@ function App() {
       <NavComponent/>
       {/* <Routes>
         <Route>
-
+        
         </Route>
       </Routes> */}
+      <img src="https://drive.google.com/uc?export=view&id=1vF3g-S1YX6WxPZ7jusQbOD_SP8LFjBIu" alt="" width={300} height={300} />
       <FooterComponent/>
     </div>
   )
