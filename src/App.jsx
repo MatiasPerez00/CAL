@@ -1,7 +1,7 @@
 // import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import NavComponent from './assets/Components/Navbar/NavComponent.jsx'
-import FooterComponent from './assets/Components/Footer/FooterComponent.jsx';
+import NavComponent from './assets/Components/Layout/Header/Navbar/NavComponent.jsx'
+import FooterComponent from './assets/Components/Layout/Footer/FooterComponent.jsx';
 
 
 function App() {
