@@ -11,7 +11,7 @@ function App() {
       <NavComponent/>
        <Routes>
         <Route path="/" element={<Navigate to={"/Home"} />} />
-        <Route path='/Home' element={<HomePage /*user={user}*/ />} />
+        <Route path='/Home' element={<HomePage/>} />
         {/* <Route path="/Register" element={<RegisterForm />} />
         <Route path="/AboutTeam" element={<AboutTeam />} />
         <Route path="/Login" element={<LoginPage setUser={setUser} />} />

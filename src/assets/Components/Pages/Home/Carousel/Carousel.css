@@ -1,0 +1,8 @@
+.Carousel-Main{
+    width: 100vw;
+    height: 300vh; /* O cualquier altura deseada */
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
