@@ -3,7 +3,7 @@ import './App.css'
 import NavComponent from './assets/Components/Layout/Header/Navbar/NavComponent.jsx'
 import FooterComponent from './assets/Components/Layout/Footer/FooterComponent.jsx';
 // import PrivateRoute from './PrivateRoute.jsx';
-
+import HomePage from './assets/Components/Pages/Home/HomePage/Home.jsx';
 function App() {
 
   return (
@@ -12,11 +12,11 @@ function App() {
        <Routes>
         <Route path="/" element={<Navigate to={"/Home"} />} />
         <Route path='/Home' element={<HomePage /*user={user}*/ />} />
-        <Route path="/Register" element={<RegisterForm />} />
+        {/* <Route path="/Register" element={<RegisterForm />} />
         <Route path="/AboutTeam" element={<AboutTeam />} />
         <Route path="/Login" element={<LoginPage setUser={setUser} />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Galery" element={<Gallery />} />
+        <Route path="/Galery" element={<Gallery />} /> */}
         {/* <Route path='/Reserve' 
                element={
                 <PrivateRoute isAllowed={user.isLoggedIn}>
